@@ -173,9 +173,9 @@ Pod::Spec.new do |s|
   end
 
   # prepare command for parseUI
-  s.prepare_command     = <<-CMD
-  ruby ParseUI/Scripts/convert_images.rb \
-        ParseUI/Resources/Images/ \
-        ParseUI/Generated/PFResources
-  CMD
+#   s.prepare_command     = <<-CMD
+#   ruby ParseUI/Scripts/convert_images.rb \
+#         ParseUI/Resources/Images/ \
+#         ParseUI/Generated/PFResources
+#   CMD
 end
